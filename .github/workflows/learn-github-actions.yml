@@ -21,6 +21,6 @@ jobs:
           DOCKER_PASSWORD: ${{ 'Koutuk167' }}
         run: |
           echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
-          docker buildx build --push --tag your-dockerhub-username/your-repo-name:latest .
+          docker buildx build --push --tag Koutuk16/Koutuk167 .
         
           
