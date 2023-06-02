@@ -1,8 +1,8 @@
 name: Docker Build and Push
 on:
-  schedule:
-    - cron: '* * * * *'
-    
+  push:
+    branches:
+      - main
 
 jobs:
   build-and-push:
